@@ -155,6 +155,7 @@ video {
   opacity:0.95;
 }
 .section-inner {
+  margin-top: 50px;
   padding:20px 30px 0;
 }
 .fp-scrollable {
@@ -399,6 +400,7 @@ a#logo {
 .welcome-box {
   font-size:20px;
   line-height:1.7;
+  margin-top: 80px;
 }
 .welcome-first{
   font-size: 32px;
@@ -431,9 +433,10 @@ a#logo {
 }
 .next-section {
   display: inline-block;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  margin-top: 50px;
+  /* position: absolute; */
+  /* left: 50%;
+  transform: translateX(-50%); */
   bottom: 30px;
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
@@ -862,5 +865,35 @@ textarea.form-control {
 
 .black-title h4 {
   color: black;
+
+}
+
+@media (max-width: 768px) {
+  .welcome-box {
+    margin-top: 0;
+  }
+
+  .next-section {
+    display: none;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .welcome-box {
+    margin-top: -70px;
+  }
+
+  .next-section {
+    display: none;
+  }
+
+  .portfolio-item .thumb-inner {
+    display: none;
+  }
+
+  .testimonial {
+    display: none;
+  }
 
 }
