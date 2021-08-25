@@ -433,7 +433,7 @@ a#logo {
 }
 .next-section {
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 10px;
   /* position: absolute; */
   /* left: 50%;
   transform: translateX(-50%); */
@@ -443,7 +443,7 @@ a#logo {
   transition: all 0.5s ease;
 }
 .next-section span {
-  margin-top: 15px;
+  margin-top: 5px;
   display: block;
   text-transform: uppercase;
   font-size: 14px;
@@ -873,20 +873,29 @@ textarea.form-control {
     margin-top: 0;
   }
 
-  .next-section {
+  /* .next-section {
     display: none;
-  }
+  } */
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 320px) {
   .welcome-box {
     margin-top: -70px;
-  }
+  } */
+
+
+  /* .welcome-box p {
+    font-size: 13px;
+  } */
 
   .next-section {
-    display: none;
+    margin-top: 0px;
   }
+
+  /* .next-section {
+    display: none;
+  } */
 
   .portfolio-item .thumb-inner {
     display: none;
